@@ -1,0 +1,153 @@
+.nav{
+  width: 100%;
+  text-align: center;   
+  height: 85px;
+  background-color: #FF4A4A;
+}
+.nav-on-click{
+  height: 180px;
+}
+
+.navbar{
+  padding: 9px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+  }
+.navbar-on-click{
+  height: 70px;
+}
+
+  .nav-title{
+    height: 65px;
+    width: 60%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    border-radius: 8px;
+  }
+.title{    
+  padding-left: 15%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+@media (max-width: 455px) {
+    .nav-title{
+    width: 80%;
+    }
+}
+.reset-btn{
+  margin-right: 3%;
+    font-size: 1.3rem;
+    width: 25%;
+    border: none;
+    border-radius: 4px;
+    color: #FF4A4A;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.input-todo{
+  text-align: center;
+  width: 100% !important;
+  font-size: 1.2rem;
+  border-style: none;
+  border-radius: 7px;
+  width: 25%;
+  height: 35px;
+  margin-top: 2px;
+}
+.submit{
+  font-size: 1.2rem;
+  margin-top: 12px;
+  border-radius: 5px;
+  border-style: none;
+  background-color:#6FEDD6;
+  width: 15%;
+  height: 35px;
+}
+
+.todo-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  padding-bottom: 1%;
+  width: 70%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9px;
+  border-color: #CFD2CF;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+.todo-status{
+  font-size: 1.1rem;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-radius: 7px;
+  border-color: #CFD2CF;
+
+}
+
+.todo-list{
+  padding: 4% 15%;
+  color: white;
+  background-color: white !important;
+}
+
+.entries{
+  border-radius: 12px;
+  background-color: #FF9551; 
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5% ;
+}
+
+.entries input{
+  margin-right: 5%;
+}
+
+.remove-completed-list{
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 2% 8%;
+  margin-bottom: 4%;
+  border-style: none;
+  border-radius: 8px;
+  background-color: #a7f0e2;
+
+}
+
+.no-list{
+  font-size: 1.1rem;
+  border-radius: 8px;
+  padding: 3% 10%;
+  background-color:#FF9551 ;
+  color: black;
+}
+
+.entries{
+ margin-bottom: 3%;
+}
+
+
+.entries h3{
+font-size: 1.3rem;
+}
+
+
+.remove-todo{
+  cursor: pointer;
+ color:#EEEEEE;
+  font-weight: 200;
+  padding-right: 2%;
+}
